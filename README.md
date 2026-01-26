@@ -8,9 +8,6 @@ This project focuses on **slot tagging**, a classic **sequence labeling** proble
 1. [Problem Overview](#problem-overview)
 2. [Dataset Description](#dataset-description)
 3. [Task Formulation](#task-formulation)
-4. [IOB Tagging Scheme](#iob-tagging-scheme)
-5. [Models Explored](#models-explored)
-6. [Input Representation](#input-representation)
 4. [Slot Tagging with IOB Labels](#slot-tagging-with-iob-labels)
 5. [Model Architectures Explored](#model-architectures-explored)
 6. [Input Representation and Tokenization](#input-representation-and-tokenization)
@@ -115,8 +112,6 @@ These models capture temporal dependencies across tokens.
 - **RNN + CNN**
   - CNN extracts local n-gram features
   - RNN captures sequence-level context
-- **GRU + CNN + BERT**
-  - BERT provides contextualized embeddings
 - **Bidirectional variants**
   - Capture both left and right context
 
@@ -174,7 +169,7 @@ These models capture temporal dependencies across tokens.
 - Adding CNN layers significantly improved F1 scores
 - CNNs help capture local patterns useful for slot boundaries
 
-### BERT Integration
+### Bidirectionality
 - Bidirectional RNNs consistently outperformed unidirectional variants
 - Provided the largest single performance gain
 
