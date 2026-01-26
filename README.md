@@ -175,11 +175,11 @@ These models capture temporal dependencies across tokens.
 - CNNs help capture local patterns useful for slot boundaries
 
 ### BERT Integration
-- Adding BERT alone provided modest gains
-- Biggest improvements came from **bidirectionality**, not BERT alone
+- Bidirectional RNNs consistently outperformed unidirectional variants
+- Provided the largest single performance gain
 
 ### Best Performing Model
-- **GRU + CNN + BERT (Bidirectional)**
+- **GRU + CNN**
 - Hyperparameters tuned via Optuna
 - Achieved **~0.94 peak F1** during training
 - Best Kaggle submission F1 ≈ **0.66**
