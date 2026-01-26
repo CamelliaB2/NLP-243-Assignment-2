@@ -1,6 +1,5 @@
 # Slot Tagging of Natural Language Utterances (Sequence Labeling)
 
-This project focuses on **slot tagging (sequence labeling)** for natural language queries using deep learning. The task is to identify and label semantic slots within film-related utterances using the IOB tagging scheme. Multiple neural architectures were explored, with an emphasis on understanding how architectural choices and hyperparameters affect performance.
 This project focuses on **slot tagging**, a classic **sequence labeling** problem in NLP. Given a natural-language utterance about movies or people, the task is to assign an **IOB slot tag** to each token in the sentence. The project explores multiple neural architectures and systematically evaluates how model choice, feature extraction, and hyperparameters affect performance.
 
 ---
@@ -22,17 +21,11 @@ This project focuses on **slot tagging**, a classic **sequence labeling** proble
 11. [Limitations](#limitations)
 12. [Future Improvements](#future-improvements)
 13. [Notes to Future Me](#notes-to-future-me)
-8. [Experiments and Results](#experiments-and-results)
-9. [Key Observations and Lessons Learned](#key-observations-and-lessons-learned)
-10. [Limitations](#limitations)
-11. [Potential Improvements](#potential-improvements)
-12. [Notes to Future Me](#notes-to-future-me)
 
 ---
 
 ## Problem Overview
 
-The goal of this project is **slot tagging**, a form of sequence labeling in NLP. Given a natural-language utterance, the model must assign a semantic tag to **each token** in the sequence.
 The goal of this project is to perform **slot tagging** on natural-language utterances. Each utterance is a short query asking for information about a movie or person, and the task is to identify and label relevant spans (slots) within the sentence.
 
 Example:
