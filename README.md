@@ -176,7 +176,6 @@ These models capture temporal dependencies across tokens.
 ### Best Performing Model
 - **GRU + CNN**
 - Hyperparameters tuned via Optuna
-- Achieved **~0.94 peak F1** during training
 - Best Kaggle submission F1 ≈ **0.66**
 
 ---
